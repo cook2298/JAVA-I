@@ -8,7 +8,7 @@ public class CP1 {
 		//variable declaration
 		static String iString; //input string
 		static String iFirstName, iLastName; // first and last name
-		static int iHours; // hours after conversion
+		static int cHours; // hours after conversion
 		static double iRate; //rate after conversion
 		static double cPay; //calculated pay
 		static String oPay; //pay after formatting currency 
@@ -36,16 +36,30 @@ public class CP1 {
 		//prompt for last name
 		System.out.print("Enter last Name: ");
 		iLastName = myScanner.next();
-		//prompt input and convert
-		System.out.print("Enter hours worked: ");
-		iString = myScanner.next();
-		iHours = Integer.parseInt(iString);
-		System.out.print("Enter payrate: ");
-		iString = myScanner.next();
-		iRate = Double.parseDouble(iString);
+		try {
+			System.out.print("Enter hours worked: ");
+			iString = myScanner.next();
+			cHours = Integer.parseInt(iString);
+		}
+		catch(Exception e) {
+			System.out.println("Hours must be a hole number, defaulted to 0");
+			cHours = 0;
+		}
+		
+		try {
+			//prompt input and convert
+			System.out.print("Enter payrate: ");
+			iString = myScanner.next();
+			iRate = Double.parseDouble(iString);
+		}
+		catch(Exception e) {
+			System.out.println("Rate must be a decimal number, defaulted to 0");
+			iRate = 0;			
+		}
+
 	}
 	public static void calcs() {
-		cPay = iHours * iRate;
+		cPay = cHours * iRate;
 	}
 	public static void output() {
 		System.out.println("Employee name: " +iLastName + ", " + iFirstName);
