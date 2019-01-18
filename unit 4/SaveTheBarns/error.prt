@@ -1,0 +1,11 @@
+                         8922 School Street North San Jose       FL34031RF0741.88 - Contributor name is required
+Kevin Walton                                      La Grange      IN07045RF0113.31 - Address is required
+Spencer Vazquez          2921 Ridge Avenue Brookfi               CT55103IM0862.50 - City is required
+Case Franco              7653 Sunset Avenue StratfGlenview         47574IF0164.23 - State is required
+Marcus Tate              9134 Colonial Avenue WallOrange         MP     RM5794.62 - Zip must be numeric
+Hugo Shaffer             0515 Warren Avenue Coeur Cripple Creek  GU70775 M0450.11 - Party must be D, I, or R
+Nathan Holt              1600 Meadow Street BeverlHighland Park  SC30817WF0667.10 - Party must be D, I, or R
+Ian Dunn                 4205 Virginia Street FairFontana        MP20717D 0977.93 - Gender must be M or F
+Trevor Horn              9835 Valley View Drive KoNome           OH07377ID0556.91 - Gender must be M or F
+Jonathan Jackson         1511 Smith Street Canton Cicero         MO00517DM42A7.42 - Contribution must be numeric and between 00.01 - 9999.99
+Gerardo Logan            5381 Harrison Avenue WateMountain View  OH03214IM0000.00 - Contribution must be 00.01 - 9999.99
