@@ -1,0 +1,33 @@
+Date: 02/07/2019                                    Albia Soccer Club Fundraiser                                            Page:  1
+JavaJHC06                                                  Cook Division                                                
+                                                            Error Report                                                            
+
+Error Record                                                            Error Discription
+               PaulJaden      0015 FieldstoneHammond   IL0618419150444E - Last name cannot be blank                                 
+
+Gordon                        6284 Hillside AWinter ParMI1930563250173C - First name cannot be blank                                
+
+West           Alan                          Windsor LoNE4914165240446A - Address cannot be blank                                   
+
+Burnett        Emilio         8547 Cedar Cour          IA7275659580424B - City cannot be blank                                      
+
+King           Robert         4577 Sycamore DElwood      7319242650654B - State must be IA, IL, MI, MO, NE, or WI                   
+
+Harvey         Angelo         2783 Roosevelt CarrolltonCA9747689070612C - State must be IA, IL, MI, MO, NE, or WI                   
+
+Rowe           Enzo           4478 Prospect SNew SmyrnaNE         0620D - Zip must be numeric                                       
+
+Griffith       Gustavo        0874 Eagle RoadPalo Alto MO41752133A0551E - Zip must be numeric                                       
+
+Wilkins        Leonardo       4046 Fawn CourtSpringfielMI745991003  58A - Pop type must be numeric                                  
+
+Brock          Quincy         9774 State StreKodiak    MO3176513460701A - Pop type must be 1 - 6                                    
+
+Lawrence       Alex           6270 Overlook CSpringfielWI4047537300400A - Cases must be greater than 0                              
+
+Becker         Trey           6648 State StreOroville  WI8667072900117F - Team must be A - E                                        
+
+Underwood      Caden          2793 Lexington Goshen    IL1285270280400B - Cases must be greater than 0                              
+
+                                                                                                                                    
+Total Errors    13
